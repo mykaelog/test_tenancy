@@ -1,0 +1,12 @@
+export enum RatingStatus {
+  NOT_VALID = 1,
+  PENDING_ALLOCATION = 2,
+  PENDING_DATA = 3,
+  IN_PROGRESS = 4,
+  UNDER_REVIEW = 5,
+  PENDING_APPROVAL = 6,
+  REJETED = 7,
+  DRAFT_REPORT = 8,
+  COMPLETED = 9,
+  RE_ALLOCATED = 10,
+}
